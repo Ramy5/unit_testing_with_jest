@@ -1,0 +1,22 @@
+{
+  "name": "one",
+  "version": "1.0.0",
+  "description": "training for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "ramy sabry",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "jest": {
+    "//": "it does not work",
+    "coverageDirectory": "reports",
+    "collectCoverage": true,
+    "coverageReporters": [
+      "html"
+    ]
+  }
+}
